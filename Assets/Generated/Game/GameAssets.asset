@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb716c89ee418344bf186fa3c6c6dbf, type: 3}
+  m_Name: GameAssets
+  m_EditorClassIdentifier: Assembly-CSharp::GameAssets
+  additive: {fileID: 2100000, guid: 241370a813dd5c74faa2a2f03225099c, type: 2}
+  smoke: {fileID: 2100000, guid: ba86ed7baf78118439aa8e283deb7d63, type: 2}
+  decal: {fileID: 2100000, guid: ccce2f99c6dce6543be4c548e21d49b6, type: 2}
+  tracer: {fileID: 2100000, guid: 9b10bd723c8676f47b8982d46b3c6353, type: 2}
+  flash: {fileID: 2100000, guid: fdf7808eac042b04a8f917a5bdd940c9, type: 2}
+  stormMat: {fileID: 2100000, guid: 8d009703a8613234aa04e238e1f2558b, type: 2}
+  softDot: {fileID: 2800000, guid: 128d3c2f002901b4388a8d7a5efb4243, type: 3}
+  scope: {fileID: 2800000, guid: 24965798d9a3ff547915fdb8243ab750, type: 3}
+  ring: {fileID: 0}
+  weaponIcons:
+  - {fileID: 2800000, guid: 6c3e21a974a426b4297bf9149be02fc8, type: 3}
+  - {fileID: 2800000, guid: 93ff74e1d7e82aa41a347f653740229d, type: 3}
+  - {fileID: 2800000, guid: baf109ecc3341184dab612a7d2a999d0, type: 3}
+  - {fileID: 2800000, guid: 5f488a7876972864bb49ebe0e4ff65f1, type: 3}
+  - {fileID: 2800000, guid: 04a6b50dee254df43b036ed47717b7e8, type: 3}
+  - {fileID: 2800000, guid: cb5411c073b5095489c66fbbc29d4f28, type: 3}
+  - {fileID: 2800000, guid: d4a19654efea09443b0b7595be5c92e0, type: 3}
+  consumableIcons:
+  - {fileID: 2800000, guid: b0f1635691de51046ada49c39b8ff312, type: 3}
+  - {fileID: 2800000, guid: 52841bbffdfab0043bcc255bae3548df, type: 3}
+  - {fileID: 2800000, guid: 0fd72b716b04f024081b5596e04ffda7, type: 3}
+  - {fileID: 2800000, guid: 0e34d970447c74549890f58b4538a9f4, type: 3}
+  - {fileID: 2800000, guid: 82cab35844005554aa73dcbf79866a5f, type: 3}
+  ammoIcon: {fileID: 2800000, guid: 56e50cbcfe2ba074b91e369ee5ee0210, type: 3}
+  minimap: {fileID: 2800000, guid: 4a28db1e4acf7fa4d9644adba5e08d40, type: 3}
+  mapHalf: 215.7
+  iconShield: {fileID: 2800000, guid: a7be14a28a3fa364e87e29fc2c7dec30, type: 3}
+  iconHealth: {fileID: 2800000, guid: 81bc64abaa8dc164ca74bc32e2186ad6, type: 3}
+  iconSprint: {fileID: 2800000, guid: 19ee4bb232bb26848a3dbd6094f85021, type: 3}
+  iconPlayers: {fileID: 2800000, guid: bb75474455853b2478228c7cf9d37fac, type: 3}
+  iconElims: {fileID: 2800000, guid: ff4b89722bc0034458abef21c42c16bf, type: 3}
+  iconClock: {fileID: 2800000, guid: e329706291b20c048848e35a0d0af9a0, type: 3}
+  mapArrow: {fileID: 2800000, guid: 17bd0c8d121ee7647bfb5dba6c8873e5, type: 3}
+  slotShine: {fileID: 2800000, guid: 12a274290c5032746b5c6c87c2edd87b, type: 3}
+  itemPrefabs:
+  - {fileID: 7706107368786294095, guid: 568358fae0c70cf4f9d40920208065a2, type: 3}
+  - {fileID: 7644097905126053303, guid: 94a576d8713530947ba0bce0b5cd70ec, type: 3}
+  - {fileID: 4793272139821865360, guid: 65f709ff4e9f36e499d0d45e0f5441f3, type: 3}
+  - {fileID: 2125407289681011671, guid: 47c69cc7cd6285a4b98b77596092f256, type: 3}
+  - {fileID: 8978367131090582837, guid: 12ffb345b43901547b7592dfac1c3002, type: 3}
+  - {fileID: 1807183173122809806, guid: 8e7917ca7f8db0d4c96f5bf2f60d4221, type: 3}
+  - {fileID: 4809806459250238794, guid: 602586575d874a945842aa954ece5a74, type: 3}
+  - {fileID: 7775366928513949793, guid: 6589e22c22e120a469f3fc6dcc825f31, type: 3}
+  - {fileID: 6659468871803595241, guid: 9eeeddd2dcef04f4a8c2a9fe520f03e7, type: 3}
+  - {fileID: 8160702288914871532, guid: 16f4323b564da71409983c10bbc65b5d, type: 3}
+  - {fileID: 5198721353670578075, guid: aa33e5922e420034582e2c674d2c95ad, type: 3}
+  - {fileID: 7669449136328101468, guid: 96225982ea4d90d4eb0f810840279f50, type: 3}
+  - {fileID: 3631605643081442298, guid: 7b1023336499af141abf571185786764, type: 3}
+  botPrefabs:
+  - {fileID: 7751533744351337961, guid: f31bc5b475367444090c5a4833564994, type: 3}
+  - {fileID: 1378726150325967, guid: 7f4477d1bf836ae43bf9e969a027948a, type: 3}
+  - {fileID: 9054380421188296015, guid: d666b420c5425964ebc0b7ef26851685, type: 3}
+  - {fileID: 8235482959060442283, guid: 956c3095a14badd48baf11194514c48b, type: 3}
+  - {fileID: 1985633588153202821, guid: 9f4f7c05e5d8edb418e9ae8494879bfe, type: 3}
+  - {fileID: 8528080821967347513, guid: 3666603f22bd104468962a4bd7d86455, type: 3}
+  - {fileID: 5277402451892521321, guid: 95c60ebcc8285b747aba0c12d3b10921, type: 3}
+  - {fileID: 7733113657444115429, guid: c32d2d9828d732d4ba3f3ac419b24524, type: 3}
+  - {fileID: 6897753594506602992, guid: ee465adeedc0d374aa2ed123905e351e, type: 3}
+  - {fileID: 1271145500812895325, guid: 37943d41c37ab9349b5b99aa612f4a86, type: 3}
+  - {fileID: 1471068967446753290, guid: 76af36ec45087df4a88261d32e6960ad, type: 3}
+  - {fileID: 1222391523735086516, guid: 32bb9bf390547834c82df0410b0465c3, type: 3}
+  - {fileID: 6969231504804271353, guid: e146ab46d677ea5468d8d53b5cfb3294, type: 3}
+  - {fileID: 8923975748021354965, guid: 55272b5858edfb04ebf61b390d657e43, type: 3}
+  playerPrefabs:
+  - {fileID: 6262561917041903447, guid: 67e36c25509794443910a2e9dad2a48f, type: 3}
+  - {fileID: 7761668481471389600, guid: ca9b463fdd5e101459eb4c36360e1835, type: 3}
+  - {fileID: 690938360080128393, guid: f9bd76749c7c6dc45a3d8e7d0baac092, type: 3}
+  - {fileID: 2337875050119914866, guid: 439e131ebdb196d41bc9d851eff77d65, type: 3}
+  - {fileID: 5603501346018139003, guid: d73c17dd5b4ce674499c229d7ad89b06, type: 3}
+  - {fileID: 8271375678988993760, guid: 3fac9b2580b820e478185795c727f475, type: 3}
+  - {fileID: 6695238349021537594, guid: a1c5e10e62a19d14b8fff5d7a72b2395, type: 3}
+  - {fileID: 469630547672205156, guid: 64d275539f85e594f8e0a173ec1e014c, type: 3}
+  - {fileID: 819030707800734671, guid: 479d80982ef31424ba8f4d158b7f6d97, type: 3}
+  - {fileID: 3169806011904232969, guid: 3862812b0d0e6d24c89cd76f3fed71e2, type: 3}
+  - {fileID: 4671118232139716078, guid: 6935d011d9bdfac4bb07c1ea06bf4e57, type: 3}
+  - {fileID: 4891753455892607158, guid: 5017291fb98f2aa44b5017923dc8ea1d, type: 3}
+  - {fileID: 5472082954048234302, guid: d11bc2941460bca48a408703650c1207, type: 3}
+  - {fileID: 2877589841889631824, guid: 712557d98e99b2146b5af74a90f6b2e8, type: 3}
+  - {fileID: 486295558118602012, guid: b7757f5b1b1a10443ac6d9647edbf46d, type: 3}
+  outfitNames:
+  - AJ
+  - MICHELLE
+  - AMY
+  - JACKIE
+  - CLAIRE
+  - KAYA
+  - SPORTY GRANNY
+  - TY
+  - TIMMY
+  - ORTIZ
+  - BIG VEGAS
+  - SWAT
+  - VANGUARD
+  - NINJA
+  - DOOZY
+  outfitRarity: 010000000200000002000000030000000100000002000000030000000100000001000000040000000400000002000000040000000300000003000000
+  outfitIcons:
+  - {fileID: 2800000, guid: dbf1d549da6e74b4ea62f61cb988d3c9, type: 3}
+  - {fileID: 2800000, guid: c1c31fa31e50cfc45b8a8b955a3152e8, type: 3}
+  - {fileID: 2800000, guid: 5064bb6ee44d1a543a987aa9e344f839, type: 3}
+  - {fileID: 2800000, guid: e57a3233d666f9a48ad0094e2ea9a0b4, type: 3}
+  - {fileID: 2800000, guid: 5a0af222341075c4db6a7cc7d6d52e68, type: 3}
+  - {fileID: 2800000, guid: e6cb67579e52b1e4a82985aea23a388b, type: 3}
+  - {fileID: 2800000, guid: d876e1200731b5442a22d4f00949a207, type: 3}
+  - {fileID: 2800000, guid: 862d2505b347c4445854601d1feef7b8, type: 3}
+  - {fileID: 2800000, guid: 309405d77758ae146ba0ca2371457363, type: 3}
+  - {fileID: 2800000, guid: b4f1bd122a42dac4d8f357aa4dc7de07, type: 3}
+  - {fileID: 2800000, guid: 11179794df7be6b408a377cbe882d604, type: 3}
+  - {fileID: 2800000, guid: 0b27fa8d644870f41926a97fb1c2ac75, type: 3}
+  - {fileID: 2800000, guid: 3b37a74ee1191b444836a84eac084911, type: 3}
+  - {fileID: 2800000, guid: 3239d5708b26e1c4a9614f45bc96dfba, type: 3}
+  - {fileID: 2800000, guid: a11464bbcb846b7418bf1eb6a4bc14e5, type: 3}
+  buildPrefabs:
+  - {fileID: 8082046083882025932, guid: 439ea0215dad6d64e8b35c20fb769d70, type: 3}
+  - {fileID: 2294045159338214650, guid: aa37e9a1d1941b44484eeb4e8bb0aa6a, type: 3}
+  - {fileID: 1803874340869805514, guid: 5b0ef80026eb02647ad2bbee6685b754, type: 3}
+  - {fileID: 1916195522267824789, guid: cab5fd0b2fd2c6849a559ad8196bdcb8, type: 3}
+  - {fileID: 5967627764300108593, guid: 1af7bead88162d54e858545c6142d07b, type: 3}
+  - {fileID: 8803876798304370888, guid: 8eafe953e2cb36240a890477a67809db, type: 3}
+  - {fileID: 978158023395514571, guid: 1740781c0f10deb429daccc8130eb9b3, type: 3}
+  - {fileID: 5837389881580715780, guid: f64e533675c50e347aaf88014199d1fe, type: 3}
+  - {fileID: 8379993562054256887, guid: 015e7210cf75e3743b65b3c68c8821f8, type: 3}
+  - {fileID: 4046020823447906705, guid: a982bc05092f64345afbc5d580ebf611, type: 3}
+  - {fileID: 4817170171350022190, guid: 07e456c771f2a8e42b349249c9567d15, type: 3}
+  - {fileID: 2213528313731331362, guid: 2795e86b24bf485448d2a6ccf267283a, type: 3}
+  buildYaw:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 180
+  - 180
+  - 180
+  - 0
+  - 0
+  - 0
+  buildOffset:
+  - {x: 2, y: -0, z: -0}
+  - {x: 2, y: -0, z: -0}
+  - {x: 2, y: -0, z: -0}
+  - {x: 2, y: -0, z: 2}
+  - {x: 2, y: -0, z: 2}
+  - {x: 2, y: -0, z: 2}
+  - {x: -2.0000002, y: -0, z: -1.9899999}
+  - {x: -2.0000002, y: -0, z: -1.9899999}
+  - {x: -2.0000002, y: -0, z: -1.9899999}
+  - {x: 2, y: -0, z: 2}
+  - {x: 2, y: -0, z: 2}
+  - {x: 2, y: -0, z: 2}
+  buildMeshes:
+  - {fileID: 4300000, guid: bcd5957bff25a4944a2ef181797a9803, type: 2}
+  - {fileID: 4300000, guid: 4423ef48de31418468fa42d60e6db415, type: 2}
+  - {fileID: 4300000, guid: eeb3086c0d29ae643b25a7dfb8ec5a1d, type: 2}
+  - {fileID: 4300000, guid: f3042e77e194af140bd5904d6a389009, type: 2}
+  - {fileID: 4300000, guid: e69cae15dc04a644abad445413b05265, type: 2}
+  - {fileID: 4300000, guid: c08b615edf3f91644b09c84d4aca4dd3, type: 2}
+  - {fileID: 4300000, guid: fdce05ff4d60474419fd8d315b6221c6, type: 2}
+  - {fileID: 4300000, guid: daabcc3fdf4541641aa6fc506db0e871, type: 2}
+  - {fileID: 4300000, guid: 74545457746c85b47b6f9dd4309f1c69, type: 2}
+  - {fileID: 4300000, guid: 462a6f19d00efab4a9acff1402f5c6ca, type: 2}
+  - {fileID: 4300000, guid: 2c14826ef5dfa3348b36feb761486219, type: 2}
+  - {fileID: 4300000, guid: 93cf20289e502bd47aae8f1f7f5ed84e, type: 2}
+  ghostMat: {fileID: 2100000, guid: 9f162f49c83e9224f99d6b84aa7e825c, type: 2}
+  matIcons:
+  - {fileID: 2800000, guid: 738317f34393ce24b8a8aafaff640508, type: 3}
+  - {fileID: 2800000, guid: ce877c8edfe268f4a8e45b078093d732, type: 3}
+  - {fileID: 2800000, guid: 78372f6f5d296db47b19a3395ad1b406, type: 3}
+  pieceIcons:
+  - {fileID: 2800000, guid: 738317f34393ce24b8a8aafaff640508, type: 3}
+  - {fileID: 2800000, guid: a09280e61b0641144997b5c933234fc3, type: 3}
+  - {fileID: 2800000, guid: 633fb1f60fe2d5f4d9611c071bc14ef0, type: 3}
+  - {fileID: 2800000, guid: c8cbb662810a689499ca9e347a9d9b6b, type: 3}
+  navMesh: {fileID: 23800000, guid: edf62bab9ac51254c937f18002128044, type: 2}
+  swimDrop: 0.82608056
+  treadDrop: 1.1984184
+  mantleLength: 1.1333334
+  launchPad: {fileID: 3582670681585504635, guid: cfb0497b822034c49915fc39dfc7245e, type: 3}
+  riftMat: {fileID: 2100000, guid: 30ec46ac3b38d1f468e9a98d5a3102b6, type: 2}
+  zipPoleMat: {fileID: 2100000, guid: 4a6588ce0623a1d498b94fa98ce9078a, type: 2}
+  zipCapMat: {fileID: 2100000, guid: 2bc1fc2807f16104ba64ffa3856e5287, type: 2}
+  zipCableMat: {fileID: 2100000, guid: 5a4f8efdcc00cde4489a4012f661b005, type: 2}
+  supplyFalling: {fileID: 5874406573095543161, guid: f173d7864a2533d4dacbc59416026242, type: 3}
+  supplyLanded: {fileID: 6482611123445460498, guid: 663a3bd2e4508aa4ca2acf7017456f5f, type: 3}
+  podiumMat: {fileID: 2100000, guid: ab00db63a38dbaa47866fed2facd2483, type: 2}
+  podiumRingMat: {fileID: 2100000, guid: 3dfb8388b31b547468045d29a7d56321, type: 2}

@@ -1,0 +1,20 @@
+Gunshot recordings (added on the user's request after the synthesised shots sounded wrong), from
+"The Free Firearm Sound Library" by Ben Jaszczak, Brian Nelson, Kevin Heras and Matthew Nanney,
+CC0 1.0 (public domain dedication), the prepared version hosted on OpenGameArt:
+https://opengameart.org/content/the-free-firearm-sound-library
+(archive "Prepared SFX Library.7z", downloaded 2026-10-28).
+
+Each clip is one shot, trimmed by the build helper (silence before the shot cut, tail faded), mixed to
+mono, high-passed (45 Hz; 110 Hz for the near sniper shot, which carried wind rumble), 48 kHz 16 bit,
+peaks at -1 dBFS. The near clips are lightly compressed for punch.
+
+  assault_rifle.wav      AK-47, single shot, near           (C_28P.wav)
+  assault_rifle_far.wav  AK-47, single shot, mid distance   (C_31P.wav)
+  shotgun.wav            Benelli Nova 12 gauge, near        (O_21P.wav)
+  shotgun_far.wav        Benelli Nova 12 gauge, mid distance (O_17P.wav)
+  sniper_rifle.wav       Tikka T3 .30-06 bolt action, near  (W_29P.wav)
+  sniper_rifle_far.wav   Tikka T3 .30-06, mid distance      (W_24P.wav)
+  pistol.wav             Walther PPQ 9 mm, near             (X_39P.wav)
+  pistol_far.wav         Walther PPQ 9 mm, mid distance     (X_31P.wav)
+
+The rocket launcher, the explosions and the other effects are still synthesised (Sfx.cs).

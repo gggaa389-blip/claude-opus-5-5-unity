@@ -1,0 +1,29 @@
+Mixamo (Adobe) assets, added on the user's request after test 2 (not part of the test 1 asset set).
+Downloaded 2026-10-26 from mixamo.com with the user's account, format "FBX for Unity".
+Characters (T-pose, with skin): Y Bot, Remy, Kate.
+Animations (Y Bot skeleton, without skin, 30 fps, In Place): Walking (Male Standard Walk),
+Female Walk (Female Normal Walk), Running (Running With Intention), Jogging, Swimming, Treading Water.
+Weapon locomotion (added later, same account and settings, Y Bot skeleton, In Place):
+Rifle_Walk (Rifle Walk Forward), Rifle_Run (Rifle Run Forward), Pistol_Walk (Walking With An Aimed Pistol),
+Pistol_Run (Running With A Pistol), Axe_Walk (Walking Forward With Axe), Axe_Run (Running Forward With Axe).
+Playable character (fifth run, same account and settings, Y Bot skeleton, In Place where Mixamo offers it):
+Rifle 8-Way Locomotion Pack clips R_Idle (Idle), R_WalkB/L/R (Walk Backward/Left/Right), R_RunB/L/R (Run Backward/Left/Right),
+R_Sprint (Sprint Forward), R_JumpLoop (Jump Loop); R_Reload (Reloading Rifle While Standing);
+Pistol/Handgun Locomotion Pack clips P_Idle (Pistol Idle), P_WalkB (Pistol Walk Backward), P_StrafeL/R (Pistol Strafe),
+P_RunB (Pistol Run Backward); P_Reload (Gun Reload While Walking);
+Pro Melee Axe Pack clips M_Idle (Standing Idle), M_WalkB/L/R (Standing Walk Back/Left/Right), M_RunB (Standing Run Back),
+M_Attack (Standing Melee Attack Horizontal); unarmed U_Idle (Unarmed Idle), U_WalkB (Walking Backwards),
+U_WalkL/R (Left/Right Strafe Walk), U_RunL/R (Left/Right Strafe), U_RunB (Unarmed Run Back), U_Fall (Falling Idle),
+U_Throw (Grenade Throw While Walking); crowd deaths N_Death1 (Dying Backwards), N_Death2 (Dying, shot to the chest).
+R_IdleAim (Rifle 8-Way pack Idle Aiming) is the rifle stance idle.
+Battle royale (sixth run): S_Dive (Falling In The Air Idle), S_Glide (Hanging By Hands Gently Swaying, under the glider), C_Drink (Male Drinking, using a potion).
+Movement (eighth run: crouch, slide, mantle; same account and settings, Y Bot skeleton): Rifle 8-Way pack
+crouch clips K_Idle (Idle Crouching), K_WalkF/B/L/R (Walk Crouching Forward/Backward/Left/Right, In Place);
+V_Slide (Female Action Pose "Sliding", a single-frame pose), V_Mantle (Braced Hang To Crouch, root motion discarded).
+Front end (eleventh run: emotes and the lobby; same account and settings, Y Bot skeleton): E_Robot (Robot Hip Hop Dance),
+E_RunningMan (Dancing Running Man), E_Chicken (Chicken Dance), E_Cabbage (Silly Dancing, The Cabbage Patch), E_Wave (Waving),
+E_Flex (Taunt, Flexing Muscles), E_Victory (Victory, Celebrating After A Win), L_Idle (Victory Idle, Big Vegas: the lobby pose).
+Outfits (thirteenth run, 2026-10-27, same account, "FBX for Unity", T-pose with skin): the player Aj; the bots
+Michelle, Amy, Jackie, Claire, Kaya, Sporty Granny (SportyGranny.fbx), Ty, Timmy, Ortiz, Big Vegas (BigVegas.fbx),
+Swat, Vanguard By T. Choonyung (Vanguard.fbx), Ninja, Doozy. L_Idle was replaced by Happy Idle (Happy Idle Variation 1,
+Y Bot skeleton, 30 fps): the lobby pose is now relaxed instead of Victory Idle's raised fists.
